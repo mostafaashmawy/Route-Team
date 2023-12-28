@@ -1,0 +1,346 @@
+#container { 
+    transform: translatey(0);
+}
+#fixed {
+    position: fixed;
+}
+.firstpage
+{
+    background-image: url(images/team03.jpg);
+    height:100vh;
+    background-size: cover;
+    background-color:black;
+    top: 0;
+    left: 0;
+}
+nav
+{
+    margin: 0 50px;
+}
+.king:hover
+{
+    color: brown;
+}
+.king
+{
+    color: aliceblue;
+}
+.caption
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 40%;
+}
+
+.desh
+{
+    position: absolute;
+    left:120px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.darsh
+{
+    position: absolute;
+    right: 100px;
+    font-weight: 700;
+}
+.darsh:hover
+{
+     color: red;
+}
+.matches::after
+{
+    content: "";
+    animation-name: letters-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color:yellow;
+    }
+    
+    @keyframes letters-animation{
+        3% {  
+            content: "D |";
+        }
+        6% {  
+            content: "De |";
+        }
+        9% {  
+            content: "Dev |";
+        }
+        12% {  
+            content: "Deve|";
+        }
+        15% {  
+            content: "Devel |";
+        }
+    
+        18% {  
+            content: "Develo |";
+        }
+    
+        21% {  
+            content: "Develop |";
+        }
+        24% {  
+            content: "Develope|";
+        }
+        27% {  
+            content: "Developer |";
+        }
+        30% {  
+            content: "Develope |";
+        }
+        33% {  
+            content: "Develop |";
+        }
+        36% {  
+            content: "Develo |";
+        }
+        39% {  
+            content: "Devel |";
+        }
+        42% {  
+            content: "Deve |";
+        }
+    
+        45% {  
+            content: "Dev |";
+        }
+    
+        48% {  
+            content: "De |";
+        }
+        51% {  
+            content: "D |";
+        }
+        54% {  
+            content: " |";
+        }
+        57% {  
+            content: "D |";
+        }
+        60% {  
+            content: "De |";
+        }
+        63% {  
+            content: "Des |";
+        }
+        66% {  
+            content: "Desi |";
+        }
+        69% {  
+            content: "Desig |";
+        }
+        71% {  
+            content: "Design |";
+        }
+        74% {  
+            content: "Designe |";
+        }
+        77% {  
+            content: "Designer |";
+        }
+        80% {  
+            content: "Designe |";
+        }
+        83% {  
+            content: "Design |";
+        }
+        86% {  
+            content: "Desig |";
+        }
+        89% {  
+            content: "Desi |";
+        }
+        91% {  
+            content: "Des |";
+        }
+        93% {  
+            content: "De |";
+        }
+        96% {  
+            content: "D |";
+        }
+        99% {  
+            content: "";
+        }
+    
+    
+        
+    }
+  h2
+    {
+        font-weight: bolder;
+        font-size: 50px;
+    color: black;
+    }
+    .one
+    {
+        height: 1px;
+        width: 50px;
+        background-color: red;
+      
+    }
+    .two
+    {
+        height: 1px;
+        width: 100px;
+        background-color: red;
+        margin-top:5px;
+        right:50px;
+        position: relative;
+       right: 25px;
+        
+
+    }
+    .three
+    {
+        height: 1px;
+        width: 50px;
+        background-color: red;
+        margin-top:5px;
+        position: absolute;
+    }
+    .tth
+    {
+        top:50% ;
+        left: 48%;
+    }
+    .negm
+    {
+    
+      border-color:gray;
+      border-width: 5px;
+      border-style: solid;
+      left: 150px;
+      top: 150px;
+    }
+  .upperphoto
+  {
+    background-color: rgba(0, 0, 0, .60);
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+  }
+  .negm:hover.upperphoto
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .5s all ease-in-out ;
+  }
+.messi
+    {
+width: 2px;
+height: 25px;
+background-color: red;
+margin-right: 5px;
+margin-top: 8px;
+    }
+    h5
+    {
+      font-size: 30px;
+    }
+    .moon
+    {
+        border-style: dashed;
+        border-width: 2px;
+        border-color: gray;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        padding-bottom: 15px;
+    }
+    .rony
+    {
+        left: 600px;
+        top: 150px;
+    }
+    .father
+    {
+        background-color: rgba(0,0, 0,.1);
+        top: 100%;
+        left: 0;
+    }
+    .colo
+    {
+        color:red
+    }
+    .sony
+    {
+        text-align: center;
+    }
+    .sony:hover
+    {
+        font-size: 20px;
+        width: 50%;
+        background-color: aliceblue;
+      transition: .2s;
+    }
+    .relations{
+        margin-top: 20px;
+    }
+    .hello
+    {
+        margin-top: 15px;
+        font-size: 18px;
+        padding-left:10px;
+        border-color: aliceblue
+
+    }
+    .nagi:hover
+    {
+background-color: #000;
+color: #000;
+    }
+    .ezo
+    {
+    top: 100%; 
+      
+    }
+    .donald
+  {
+    color:white;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .donald:hover
+  {
+    color: rgb(0, 89, 255);
+  }
+  .hady
+  {
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .hady:hover
+  {
+    color: red;
+  }
+  .background
+{
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(0, 0, 0, .60);
+}
+.backgrounditem
+{
+    width: 50%;
+    height: 450px;
+background-position: center center;
+transition: 0.5s all ease-in-out;
+}  
+.exit
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
