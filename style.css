@@ -224,6 +224,12 @@ nav
     left: 0;
     opacity: .5;
   }
+  .upperphoto:hover
+  {
+    
+    opacity: 1;
+    transition: .2s all ease-in ;
+  }
   .negm:hover.upperphoto
   {
     position: absolute;
